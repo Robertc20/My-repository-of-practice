@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+       <meta charset="utf-8">
+       <title> Div vs etiquetas HTML5 </title> 
+    <link rel="stylesheet" href="sintaxis-css.css">
+<!-- Forma #1
+    El link debe estar DENTRO de head, rel es de relacion stylecheet es hoja de estilo
+    y hrf es como los enlaces para indicar donde esta el archivo de css-->
+         
+    <style> 
+           /* mediante ETIQUETA */     
+            h2 { color: rebeccapurple;}
+            p{ color: blueviolet;}
+    </style>
+    </head>
+    <body>
+        <header>
+         <img src="" alt="Imagen x lol"> 
+
+         <h1> Mi pagina </h1>   
+
+            <nav>
+
+                <ul>
+                     <li><a href="">Productos</a></li>
+                     <li><a href=""> Servicios</a></li> 
+                </ul>
+
+            </nav>
+
+        </header>
+
+<aside> <!-- Informacion irrelevante, para publicidad-->
+    Publicidad 
+</aside>
+        <main> <!-- Solo uno por documento-->
+
+            <section> 
+                <h2> Productos </h2>
+
+                <p><strong>Lorem ipsum,</strong>  dolor sit amet consectetur adipisicing elit. Dolorem ea optio dignissimos architecto amet tempore ex placeat! Fugit tempora ut quam ullam deleniti temporibus suscipit maxime velit! Eum, deserunt nihil!</p>
+                <article>
+                <!-- Articulo: Informacion independente -->
+                <h3 style="color: peru";> Salio la ley contra el maltrato animal</h3>
+                <img src="" alt="Perro siendo maltratado">
+                <p> Desde hoy las personas que maltratena animales, a la horca</p>        
+            </article>
+            </section>
+                
+            <section> 
+
+                <h2> Servicios </h2>
+
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ea optio dignissimos architecto amet tempore ex placeat! Fugit tempora ut quam ullam deleniti temporibus suscipit maxime velit! Eum, deserunt nihil!</p>
+                    
+            </section>
+
+        </main>
+        <footer>
+            <p> Todos los derechos reservados </p>
+            <ul> 
+                <li><a href=""> facebook </a></li>
+                <li><a href=""> Instagram </a></li>
+                <li><a href=""> Whatsapp </a></li>
+                <li><a href=""> Twitter </a></li>
+            </ul>
+
+        </footer>
+    </body>
+</html>

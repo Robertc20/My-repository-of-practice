@@ -1,0 +1,10 @@
+header {background-color: turquoise; color:blue; }
+h1 { font-size: large; } 
+#G {color: tomato; background-color: olive;}
+#C {color: saddlebrown ; background-color: gold;} 
+
+/* Clases --> indica un estilo especifico a cierta parte del documento 
+ --- Se pueden combinar, y repetir
+*/
+
+.destacado { font-size: 23px; font-weight: bold; }
